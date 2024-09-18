@@ -17,13 +17,15 @@ body {
 /* Header */
 .header {
     background-color: #1f2937;
+    /* padding-top: 200px; */
 
-    height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 16px;
 
-    padding: 0 200px;
+    padding: 16px 200px 0;
 }
 
 .logo {
@@ -36,7 +38,9 @@ body {
     list-style: none;
 
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    align-items: flex-start;
 }
 
 a {
@@ -51,9 +55,13 @@ a {
 
     display: flex;
     padding: 80px 200px;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .hero-text {
+    min-width: 200px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -64,11 +72,11 @@ a {
     background-color: #6e747c;
     color: white;
     width: 500px;
+    min-height: 160px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .section1 h1 {
@@ -108,6 +116,8 @@ button {
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
     gap: 60px;
     margin-bottom: 80px;
 }
