@@ -18,8 +18,10 @@ body {
 .header {
     background-color: #1f2937;
 
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     padding: 0 200px;
 }
@@ -150,8 +152,21 @@ button {
     margin: 16px 40px 0 0;
 }
 
+/* Section 4 */
+.section4 {
+    padding: 70px 200px;
+}
+
 .window {
     background-color: #3882f6;
+    border-radius: 8px;
+    padding: 30px 90px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .window-text h2 {
